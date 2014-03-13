@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup name="Presentation" successfullyAdded="true">
+    <service name="Presentation" exposedAllTransports="false" serviceDeployedTime="1394169673509" successfullyAdded="true">
+        <operation name="updatePresentation">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/presentation/add</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getPresentationDependencies">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/presentation/list</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="deletePresentation">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/presentation/add</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getPresentation">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/presentation/list</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getPresentationArtifactIDs">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/presentation/list</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addPresentation">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/presentation/add</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="PresentationSoap11Binding">
+                <operation name="updatePresentation"/>
+                <operation name="getPresentationDependencies"/>
+                <operation name="deletePresentation"/>
+                <operation name="getPresentation"/>
+                <operation name="getPresentationArtifactIDs"/>
+                <operation name="addPresentation"/>
+            </binding>
+            <binding name="PresentationHttpBinding">
+                <operation name="updatePresentation"/>
+                <operation name="getPresentationDependencies"/>
+                <operation name="deletePresentation"/>
+                <operation name="getPresentation"/>
+                <operation name="getPresentationArtifactIDs"/>
+                <operation name="addPresentation"/>
+            </binding>
+            <binding name="PresentationSoap12Binding">
+                <operation name="updatePresentation"/>
+                <operation name="getPresentationDependencies"/>
+                <operation name="deletePresentation"/>
+                <operation name="getPresentation"/>
+                <operation name="getPresentationArtifactIDs"/>
+                <operation name="addPresentation"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+        <module name="pagination" version="4.2.0" type="engagedModules"/>
+        <parameter name="enableMTOM">true</parameter>
+        <parameter name="adminService">true</parameter>
+        <parameter name="AuthorizationAction">/permission/admin/login</parameter>
+        <parameter name="hiddenService">true</parameter>
+        <association destinationPath="/repository/transports/https/listener" type="exposedTransports"/>
+    </service>
+</serviceGroup>

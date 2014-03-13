@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><serviceGroup name="MobileApp" successfullyAdded="true">
+    <service name="MobileApp" exposedAllTransports="false" serviceDeployedTime="1394017133586" successfullyAdded="true">
+        <operation name="getMobileAppArtifactIDs">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/mobileapp/list</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getMobileAppDependencies">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/mobileapp/list</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="addMobileApp">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/mobileapp/add</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="getMobileApp">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/mobileapp/list</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="deleteMobileApp">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/mobileapp/add</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <operation name="updateMobileApp">
+            <parameter name="AuthorizationAction">/permission/admin/manage/resources/govern/mobileapp/add</parameter>
+            <module name="addressing" version="4.2.0" type="engagedModules"/>
+            <module name="pagination" version="4.2.0" type="engagedModules"/>
+        </operation>
+        <bindings>
+            <binding name="MobileAppSoap12Binding">
+                <operation name="getMobileAppArtifactIDs"/>
+                <operation name="getMobileAppDependencies"/>
+                <operation name="addMobileApp"/>
+                <operation name="getMobileApp"/>
+                <operation name="deleteMobileApp"/>
+                <operation name="updateMobileApp"/>
+            </binding>
+            <binding name="MobileAppSoap11Binding">
+                <operation name="getMobileAppArtifactIDs"/>
+                <operation name="getMobileAppDependencies"/>
+                <operation name="addMobileApp"/>
+                <operation name="getMobileApp"/>
+                <operation name="deleteMobileApp"/>
+                <operation name="updateMobileApp"/>
+            </binding>
+            <binding name="MobileAppHttpBinding">
+                <operation name="getMobileAppArtifactIDs"/>
+                <operation name="getMobileAppDependencies"/>
+                <operation name="addMobileApp"/>
+                <operation name="getMobileApp"/>
+                <operation name="deleteMobileApp"/>
+                <operation name="updateMobileApp"/>
+            </binding>
+        </bindings>
+        <policies/>
+        <module name="addressing" version="4.2.0" type="engagedModules"/>
+        <module name="pagination" version="4.2.0" type="engagedModules"/>
+        <parameter name="enableMTOM">true</parameter>
+        <parameter name="adminService">true</parameter>
+        <parameter name="AuthorizationAction">/permission/admin/login</parameter>
+        <parameter name="hiddenService">true</parameter>
+        <association destinationPath="/repository/transports/https/listener" type="exposedTransports"/>
+    </service>
+</serviceGroup>

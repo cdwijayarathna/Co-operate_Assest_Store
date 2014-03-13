@@ -1,0 +1,30 @@
+[2014-03-12 09:54:24,877]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-03-12 09:54:24,876+0530] 
+[2014-03-12 09:54:56,618]  INFO -  'tharindu@carbon.super [-1234]' logged in at [2014-03-12 09:54:56,616+0530] 
+[2014-03-12 09:57:54,334]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-03-12 09:57:54,334+0530] 
+[2014-03-12 09:58:08,905]  INFO -  Initiator : admin@carbon.super | Action : Add/Remove Roles from User | Target : chamila | Data : { New Roles :  Deleted Roles : Internal/reviewer, } | Result : Success  
+[2014-03-12 09:58:12,153]  INFO -  Initiator : admin@carbon.super | Action : Add/Remove Roles from User | Target : chamila | Data : { New Roles :  Deleted Roles :  } | Result : Success  
+[2014-03-12 09:58:18,218]  INFO -  Initiator : admin@carbon.super | Action : Add/Remove Roles from User | Target : tharindu | Data : { New Roles :  Deleted Roles :  } | Result : Success  
+[2014-03-12 09:58:36,169]  INFO -  'pubudu@carbon.super [-1234]' logged in at [2014-03-12 09:58:36,168+0530] 
+[2014-03-12 09:58:53,171]  INFO -  Initiator : admin@carbon.super | Action : Add/Remove Roles from User | Target : pubudu | Data : { New Roles : Internal/reviewer, Deleted Roles :  } | Result : Success  
+[2014-03-12 10:00:12,209]  INFO -  Initiator : admin@carbon.super | Action : Set Role UI Permissions | Target : Internal/presentationreviewer | Data : { Permissions :  } | Result : Success  
+[2014-03-12 10:21:43,530]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-03-12 10:21:43,529+0530] 
+[2014-03-12 11:06:43,381]  INFO -  'pubudu@carbon.super [-1234]' logged in at [2014-03-12 11:06:43,380+0530] 
+[2014-03-12 11:07:29,028]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-03-12 11:07:29,027+0530] 
+[2014-03-12 11:13:24,077]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-03-12 11:13:24,076+0530] 
+[2014-03-12 11:13:52,104]  INFO -  'chamila@carbon.super [-1234]' logged in at [2014-03-12 11:13:52,103+0530] 
+[2014-03-12 11:20:11,093]  INFO -  'tharindu@carbon.super [-1234]' logged in at [2014-03-12 11:20:11,093+0530] 
+[2014-03-12 11:20:38,783]  INFO -  'chamila@carbon.super [-1234]' logged in at [2014-03-12 11:20:38,782+0530] 
+[2014-03-12 11:35:11,855]  INFO -  'pubudu@carbon.super [-1234]' logged in at [2014-03-12 11:35:11,854+0530] 
+[2014-03-12 11:39:16,857]  INFO -  'chamila@carbon.super [-1234]' logged in at [2014-03-12 11:39:16,856+0530] 
+[2014-03-12 11:39:38,377]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-03-12 11:39:38,376+0530] 
+[2014-03-12 11:45:58,062]  INFO -  'pubudu@carbon.super [-1234]' logged in at [2014-03-12 11:45:58,061+0530] 
+[2014-03-12 11:46:53,030]  INFO -  'tharindu@carbon.super [-1234]' logged in at [2014-03-12 11:46:53,029+0530] 
+[2014-03-12 13:50:51,420]  INFO -  'pubudu@carbon.super [-1234]' logged in at [2014-03-12 13:50:51,419+0530] 
+[2014-03-12 13:51:39,285]  INFO -  'chamila@carbon.super [-1234]' logged in at [2014-03-12 13:51:39,284+0530] 
+[2014-03-12 15:12:17,631]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-03-12 15:12:17,572+0530] 
+[2014-03-12 15:12:54,720]  INFO -  'tharindu@carbon.super [-1234]' logged in at [2014-03-12 15:12:54,720+0530] 
+[2014-03-12 15:14:01,856]  INFO -  'chamila@carbon.super [-1234]' logged in at [2014-03-12 15:14:01,856+0530] 
+[2014-03-12 15:15:23,268]  INFO -  'tharindu@carbon.super [-1234]' logged in at [2014-03-12 15:15:23,267+0530] 
+[2014-03-12 15:22:00,618]  INFO -  'chamila@carbon.super [-1234]' logged in at [2014-03-12 15:22:00,617+0530] 
+[2014-03-12 15:22:23,389]  INFO -  'admin@carbon.super [-1234]' logged in at [2014-03-12 15:22:23,388+0530] 
+[2014-03-12 15:22:47,146]  INFO -  'pubudu@carbon.super [-1234]' logged in at [2014-03-12 15:22:47,144+0530] 
